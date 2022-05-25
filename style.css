@@ -1,0 +1,24 @@
+.sketchboard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sketchColumn{
+    display:flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.sketchRow{
+    display: flex;
+    flex-direction: row;
+    height: 25%
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
