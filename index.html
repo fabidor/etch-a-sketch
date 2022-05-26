@@ -9,7 +9,14 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="sketchboard"></div>
-    
+    <div class="title">
+        <h1>It's Etch a Sketch!!</h1>
+    </div>
+    <div class="console">
+        <div class="sliderbox">
+            <input type="range", min="1", max="100", value="50", class="slider", id="boxRange" onchange="setBoard(boxRange.value)">Number of Boxes </input>
+        </div>
+        <div class="sketchboard"></div>
+    </div>
 </body>
 </html>

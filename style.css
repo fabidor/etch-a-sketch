@@ -3,10 +3,11 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 960px;
-    height: 800px;
+    width: 750px;
+    height: 750px;
     border-color: black;
     border-width: 20px;
+    background-color: white;
 }
 
 .sketchColumn{
@@ -35,6 +36,13 @@ body{
     height: 100%;
     border-color: black;
     border-width: 5px;
+    background-color: grey;
+    flex-direction: column;
+}
+.console{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .activated{
